@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akebono&display=swap');
+
+@font-face {
+    font-family: Yuji_Hentaigana_Akebono;
+    src: url(../Fonts/Yuji_Hentaigana_Akebono/YujiHentaiganaAkebono-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: #bfb6f396;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+    width: 100%;
+    background-color: #2c0548;
+    display: flex;
+}
+
+header>article{
+    width: 80%;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#entrar{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 5px;
+}
+
+#login{
+    margin-left: 5px;
+    padding: 0px;
+    width: 32px;
+}
+
+#UserLog{
+    background-color: #fff;
+    display: flex;
+    width: 20px;
+    padding: 3px;
+    color: #2c0548;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#itens{
+    color: rgb(0, 0, 0);
+    text-indent: 16px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#L_ttl{
+    margin: 0px;
+    border: 1px solid #b9caca;
+}
+
+hr{
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    padding-bottom: 10px;
+     
+}
+
+#Bola_d_volei, #Bola_d_fut, #Bola_d_hand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Entrada>input{
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.presionado{
+    background-color: #5133F2;
+}
+    
+.botao{
+    background-color: #3824A8;
+    border-left-color: #8F7DF5;
+    border-top-color: #8F7DF5;
+    border-radius: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14px;
+}
+
+.botao_Nav{
+    padding: 0px 0px 10px 0px;
+    font-family: 'Yuji Hentaigana Akebono', Yuji_Hentaigana_Akebono ,cursive;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: #5033f260;
+    border: #6d55f829;
+    border-radius: 50%;
+    color: #2c0548;
+}
+
+.botao_Nav:hover{
+    background-color: #271975;
+    color: #fff;
+}
+
+.botao:hover{
+    background-color: #271975;
+}
+
+#enviar>input{
+    font-size: 18px;
+}
+
+.Cont_Bola{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+#logotipo{
+    height: 80px;
+    width: 150px;
+    padding: 0;
+}
+
+.icone{
+    padding: 0px;
+    width: 32px;
+}
