@@ -4,9 +4,6 @@
     $nome = $_GET['nome'];
     $nome = ucwords($nome);
     $email = $_GET['email'];
-    $endereco = $_GET['endereco'];
-    $cpf = $_GET['CPF'];
-    $nascimento = $_GET['nascimento'];
     $senha = $_GET['senha'];
 
     $definido = 0;
@@ -19,9 +16,9 @@
         $definido = 1;
     }
     if ($definido === 0){
-        $$nome = array( array( 'nome' => $nome, 'Email' => $email, 'Endereco' => $endereco, 'CPF' => $cpf, 'Nascimento' => $nascimento, 'Senha' => $senha, 'COOKIE' => ''));
+        $$nome = array( array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'COOKIE' => ''));
     }else{
-        $$nome = array( 'nome' => $nome, 'Email' => $email, 'Endereco' => $endereco, 'CPF' => $cpf, 'Nascimento' => $nascimento, 'Senha' => $senha, 'COOKIE' => '');
+        $$nome = array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'COOKIE' => '');
     }
     $vazio0 = "";
     $vazio1 = array();
