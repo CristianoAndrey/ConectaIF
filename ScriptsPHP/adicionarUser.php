@@ -4,7 +4,7 @@
     $nome = $_GET['nome'];
     $nome = ucwords($nome);
     $email = $_GET['email'];
-    $senha = $_GET['senha'];
+    $senha = password_hash($_GET['senha'], PASSWORD_DEFAULT);
 
     $definido = 0;
 
