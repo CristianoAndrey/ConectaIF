@@ -16,9 +16,9 @@
         $definido = 1;
     }
     if ($definido === 0){
-        $$nome = array( array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'COOKIE' => ''));
+        $$nome = array( array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'ID' => ''));
     }else{
-        $$nome = array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'COOKIE' => '');
+        $$nome = array( 'nome' => $nome, 'Email' => $email, 'Senha' => $senha, 'ID' => '');
     }
     $vazio0 = "";
     $vazio1 = array();
